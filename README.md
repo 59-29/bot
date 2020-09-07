@@ -40,7 +40,9 @@ There's a file in the root directory called `config.py` which contains two varia
 
 ---
 
-Note that after October 7, 2020, all bots will have to be verified in order to be in more than 100 servers. I applied for verification on N-Word Counter several months ago, and Discord declined it.
+**Note**: You may need to turn on the `SERVER MEMBERS` intent in order for the bot's `top` command to work properly. It can be turned on in the "Privileged Gateway Intents" section in the bot settings in the [Discord Developer Portal](https://discord.com/developers/applications).
+
+Also note that after October 7, 2020, all bots will have to be verified in order to be in more than 100 servers. I applied for verification on N-Word Counter several months ago, and Discord declined it.
 
 Anyway, that's about it. If you have any issues trying to run your own instance of the bot, DM me on Discord at NinjaSnail1080#8581. However, I won't help you if you're new to this sort of thing and don't have any clue what you're doing. I definitely don't recommend self-hosting the bot yourself unless you have experience and actually know what you're doing.
 
