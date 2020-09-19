@@ -34,7 +34,7 @@ class Error_Handlers(commands.Cog):
         elif isinstance(exc, discord.NotFound):
             return
 
-        elif "Missing Permissions" in str(exe):
+        elif "Missing Permissions" in str(exc):
             return await ctx.send("I don't have the proper perms to complete this command. "
                                   "Giving me the admin perm should fix this issue")
 
