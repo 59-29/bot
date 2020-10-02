@@ -40,7 +40,7 @@ There's a file in the root directory called `config.py` which contains two varia
 
 ---
 
-**Note**: You may need to turn on the `SERVER MEMBERS` intent in order for the bot's `top` command to work properly. It can be turned on in the "Privileged Gateway Intents" section in the bot settings in the [Discord Developer Portal](https://discord.com/developers/applications).
+**Important Note**: You need to turn on the `SERVER MEMBERS` privileged intent in order for the bot to work. [Follow these instructions](https://discordpy.readthedocs.io/en/latest/intents.html#privileged-intents) to turn it on.
 
 Also note that after October 7, 2020, all bots will have to be verified in order to be in more than 100 servers. I applied for verification on N-Word Counter several months ago, and Discord declined it.
 
